@@ -1,0 +1,38 @@
+.section-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: calc(100vh - 5rem);
+}
+
+.text-container {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr ;
+justify-items: center;
+gap: 10rem;
+}
+
+.text-show-container {
+   margin-top: 5rem;
+   display: grid;
+   place-items: center  ;
+}
+.img-container {
+
+border-radius: 50%;
+}
+.my-image {
+    border-radius: 50%;
+}
+.my-h1 {
+    font-size: 2.5rem;
+}
+
+.my-p {
+    font-size: 1.25rem;
+}
+
+.penguin-settings {
+    width: 30rem;
+    height: 20rem;
+}
