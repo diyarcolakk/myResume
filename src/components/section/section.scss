@@ -9,7 +9,7 @@ display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr ;
 justify-items: center;
-gap: 5rem;
+gap: 10rem;
 }
 
 .text-show-container {
@@ -17,11 +17,11 @@ gap: 5rem;
    display: grid;
    place-items: center  ;
 }
-.img-container {
 
-border-radius: 50%;
-}
+
 .my-image {
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
 }
 .my-h1 {
@@ -33,11 +33,7 @@ border-radius: 50%;
 }
 
 .penguin-settings {
-   width: 40rem;
-   height: 15rem;
-}
-
-.my-image {
-    width: 20rem;
-    height: 20rem;
+  object-fit: cover;
+  width: 50rem;
+height: 20rem;
 }

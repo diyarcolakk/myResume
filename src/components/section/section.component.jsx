@@ -1,7 +1,8 @@
 import "./section.scss"
-import YoungMan from "../../assets/youngman-avataricon.webp"
-import BottomPhoto from "../../assets/my-img-fornow.png"
-import About from "../about/about.component"
+
+import AvatarIcon from "../../assets/avatar-icon.png"
+import InterestPhoto from "../../assets/mysvgimg.png"
+
 const Section = () => {
     
     return (
@@ -13,14 +14,13 @@ const Section = () => {
             </div>
             <div className="img-container">
                 <div className="avatar-icon-container">
-                    <img src={YoungMan} alt="" className="my-image" />
+                    <img src={AvatarIcon} alt="" className="my-image" />
                 </div>
             </div>
             <div>
-                <img src={BottomPhoto} className="penguin-settings" alt="" />
+                <img src={InterestPhoto} className="penguin-settings" alt="" />
             </div>
             </div>
-        <About />
         </div>
     )
 }
