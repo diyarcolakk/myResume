@@ -1,7 +1,7 @@
 .section-container {
   max-width: 1170px;
   margin: 0 auto;
-  height: calc(100vh - 5rem);
+  height: 100%;
 }
 
 .text-container {
@@ -9,12 +9,13 @@ display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr ;
 justify-items: center;
-gap: 10rem;
+gap: 2.5rem;
 }
 
 .text-show-container {
    margin-top: 5rem;
    display: grid;
+   grid-template-columns: 1fr 1fr;
    place-items: center  ;
 }
 
@@ -35,5 +36,25 @@ gap: 10rem;
 .penguin-settings {
   object-fit: cover;
   width: 50rem;
-height: 20rem;
+  height: 20rem;
+}
+
+.box {
+  display: grid;
+  width: 200px;
+  height: 50px;
+  border: 1px solid red;
+  margin-bottom: 3rem;
+  text-align: center;
+  place-items: center;
+}
+
+.box-1 {
+  transform: rotate(-10deg);
+}
+.box-2 {
+  margin-left: 0.5rem;
+}
+.box-3 {
+  transform: rotate(10deg);
 }
